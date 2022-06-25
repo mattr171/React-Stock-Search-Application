@@ -1,0 +1,111 @@
+body {
+  color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3f4c6b+0,3f4c6b+100;Blue+Grey+Flat */
+  background: #3f4c6b; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #3f4c6b 0%,
+    #3f4c6b 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #3f4c6b 0%,
+    #3f4c6b 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #3f4c6b 0%,
+    #3f4c6b 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+article,
+section {
+  margin-left: 20px;
+}
+
+nav {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3f4c6b+0,3f4c6b+100;Blue+Grey+Flat */
+  background: #3f4c6b; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #3f4c6b 0%,
+    #3f4c6b 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #3f4c6b 0%,
+    #3f4c6b 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #3f4c6b 0%,
+    #3f4c6b 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+}
+
+nav div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 35px;
+}
+
+nav div ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav div ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.searchForm {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.searchResults {
+  text-align: center;
+}
+
+.searchResults ul {
+  padding-inline-start: 0px;
+}
+
+.open-close p {
+  font-size: 6rem;
+  border-style: solid;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.percent-change {
+  border: solid;
+  display:inline-flex;
+}
+
+.stock-quote {
+  display: inline-flex;
+}
+
+#search-field {
+  size: 10rem;
+  width: 20rem;
+  height: 2rem;
+  font-size: 1rem;
+}
