@@ -3,7 +3,7 @@ import Loading from "../components/Loading";
 import { useParams } from "react-router-dom";
 
 //SET THIS TO YOUR POLYGON API KEY
-const API_KEY = "xcbgZwxD4h7JDZ7vULAS3SS3tFbFpuZB";
+const API_KEY = "";
 
 const INFO_URL = "https://api.polygon.io/v3/reference/tickers/";
 const PRICE_URL = "https://api.polygon.io/v1/open-close/";

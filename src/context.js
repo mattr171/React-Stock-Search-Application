@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect } from "react";
 import { useCallback } from "react";
 
 //SET YOUR API_KEY HERE
-const API_KEY = "xcbgZwxD4h7JDZ7vULAS3SS3tFbFpuZB";
+const API_KEY = "";
 
 const AppContext = React.createContext();
 
