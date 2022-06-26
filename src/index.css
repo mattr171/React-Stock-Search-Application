@@ -1,38 +1,18 @@
 body {
-  color: white;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3f4c6b+0,3f4c6b+100;Blue+Grey+Flat */
-  background: #3f4c6b; /* Old browsers */
-  background: -moz-linear-gradient(
-    top,
-    #3f4c6b 0%,
-    #3f4c6b 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    top,
-    #3f4c6b 0%,
-    #3f4c6b 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #3f4c6b 0%,
-    #3f4c6b 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
-}
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-article,
+article, main,
 section {
   margin-left: 20px;
 }
@@ -43,17 +23,17 @@ nav {
   background: -moz-linear-gradient(
     top,
     #3f4c6b 0%,
-    #3f4c6b 100%
+    #3f426b 100%
   ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
     top,
     #3f4c6b 0%,
-    #3f4c6b 100%
+    #3f426b 100%
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to bottom,
     #3f4c6b 0%,
-    #3f4c6b 100%
+    #3f426b 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
 }
@@ -74,6 +54,38 @@ nav div ul li a {
   color: white;
 }
 
+/*#3f4c6b 0%,
+#3f426b 100% */
+.btn {
+  background: #3f4c6b;
+  background-image: -webkit-linear-gradient(top, #3f4c6b, #3f426b);
+  background-image: -moz-linear-gradient(top, #3f4c6b, #3f426b);
+  background-image: -ms-linear-gradient(top, #3f4c6b, #3f426b);
+  background-image: -o-linear-gradient(top, #3f4c6b, #3f426b);
+  background-image: linear-gradient(to bottom, #3f4c6b, #3f426b);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 32px;
+  padding: 20px 30px 20px 30px;
+  text-decoration: none;
+  margin-top:2rem;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
 .searchForm {
   margin-top: 10px;
   text-align: center;
@@ -87,6 +99,13 @@ nav div ul li a {
   padding-inline-start: 0px;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-center h3 {
+  margin-top: 2rem;
+}
 .open-close p {
   font-size: 6rem;
   border-style: solid;
