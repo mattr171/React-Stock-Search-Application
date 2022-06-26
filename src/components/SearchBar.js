@@ -9,12 +9,9 @@ const Search = () => {
     searchValue.current.focus();
   }, []);
 
-  const searchStock = () => {
-    setSearchTerm(searchValue.current.value);
-  };
-
   const handleSubmit = (e) => {
     e.preventDefault();
+    setSearchTerm(searchValue.current.value);
   };
 
   return (
@@ -28,7 +25,6 @@ const Search = () => {
             id="search-field"
             placeholder="Ex: AAPL, Apple"
             ref={searchValue}
-            onChange={searchStock}
           />
         </div>
       </form>
