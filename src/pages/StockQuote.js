@@ -13,6 +13,7 @@ const StockQuote = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [stock, setStock] = useState(null);
 
+
   useEffect(() => {
     setIsLoading(true);
     async function getStock() {
@@ -32,6 +33,14 @@ const StockQuote = () => {
           var year = date.getFullYear();
           var month = String(date.getMonth() + 1).padStart(2, "0");
           var day = String(date.getDate() - 1).padStart(2, "0");
+
+          //return previous Friday's date for Monday and Sunday
+          if (date.getDay() === 0) {
+            day = String(date.getDate() - 2).padStart(2, "0");
+          } else if (date.getDay() === 1) {
+            day = String(date.getDate() - 3).padStart(2, "0");
+          }
+
           date = year + "-" + month + "-" + day;
 
           //currently grabbing open and close price from price url
